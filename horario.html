@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horario - Damian</title>
+  
+  <!--Esto es el estilo de pagina -->
+  <style> 
+      .tumama{
+        background: #ecc591;
+        text-align: center;
+      }
+      .pinga{
+        background: #9bdada;
+      }
+      .portada{
+        background: #aadf86;
+      }
+  </style>
+  
+</head>
+<body>
+  <table border="1"> <!--para asignar un borde a una tabla colocamos este coma-->
+    <!-- TH se ve e negrita
+     Td se ve como normal-->
+     <!-- ROWSPAN -  Es para juntar de ARRIBA a ABAJO
+      COLSPAN - Es para juntar de IZQUIERDA A DERECHA-->
+    <tr>
+      <th colspan="7" class="portada">ASIX-DAW1 (mañana) 301</th>
+    </tr>
+
+    <tr class="pinga"><!--esta es una fila especial-->
+      <th>hora</th> <!--esta es una celda -->
+      <th>lunes</th>
+      <th>martes</th>
+      <th>miercoles</th>
+      <th>jueves</th>
+      <th>viernes</th>
+    </tr>
+
+    <tr><!--Esto es fila-->
+      <th>8:00 a 8:55</th>
+      <td rowspan="2"></td>
+      <td>IPO</td>
+      <td>Tutoria</td>
+      <td></td>
+      <td>IPO</td>
+    </tr>
+    
+    <tr>
+      <th>8:55 a 9:50</th>
+      <td rowspan="2">Redes</td>
+      <td rowspan="2">SO</td>
+      <td rowspan="2">IPO</td>
+      <td>Ingles</td>
+
+    </tr>
+    
+    <tr>
+      <th>9:50 a 10:45</th>
+      <td>IPO</td>
+      <td>SO</td>
+      
+    </tr>
+
+    <tr>
+      <td colspan="7" class="tumama">Patio</td>
+    </tr>
+    
+    <tr>
+      <th>11:15 a 12:10</th>
+      <td rowspan="2">BBDD</td>
+      <td rowspan="3">Programacion</td>
+      <td rowspan="3">BBDD</td>
+      <td>Ingles</td>
+      <td>SO</td>
+    </tr>
+
+    <tr>
+      <th>15:10 a 13:05</th>
+      <td rowspan="2">MarkDown</td>
+      <td rowspan="2">AppsWeb</td>
+    </tr>
+
+    <tr>
+      <th>13:05 a 14:00</th>
+      <td>Digitalizacion</td>
+
+    </tr>
+
+  </table>
+</body>
+</html>
